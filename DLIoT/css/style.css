@@ -1,0 +1,109 @@
+.navbar {
+  padding: 0em 1em !important;
+}
+
+.nav-link {
+  min-width: 120px;
+  padding: 1em 0em;
+  text-align: center;
+}
+
+.nav-item a:hover {
+  background-color: #2071b1;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  text-align: left !important;
+  padding: 0.75em;
+}
+
+.dropdown-item:hover {
+  color: #ffffff;
+}
+
+#header {
+  background-image: url("../images/conference.jpg") !important;
+  background-color: #007bff !important;
+  background-blend-mode: multiply;
+  margin-bottom: 0.5em;
+}
+
+#footer {
+  padding: 0%;
+  margin: 0%;
+  border-radius: 0px;
+}
+
+.list {
+  list-style: none;
+  margin-top: 1em;
+  color: #ffffff;
+}
+
+.list li {
+  padding-left: 2em;
+}
+
+.list #adress {
+  background: url("../images/location.png") no-repeat;
+}
+
+.list #phone {
+  background: url("../images/phone.png") no-repeat;
+}
+
+.list #fax {
+  background: url("../images/fax.png") no-repeat;
+}
+
+.list #email {
+  background: url("../images/email.png") no-repeat;
+}
+
+a {
+  color: #28a745;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#mainContent {
+  min-height: 400px;
+  margin-bottom: 0.5em;
+  padding-right: 2em;
+  padding-top: 1em;
+  background: #f8f9fa;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#important {
+  min-height: 400px;
+  margin-bottom: 0.5em;
+  padding-top: 1.5em;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.date {
+  margin-bottom: 2em;
+}
+
+a.text-light {
+  color: #a0ffa0 !important;
+}
+
+.copyright {
+  font-size: 12px;
+}

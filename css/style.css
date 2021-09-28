@@ -1,0 +1,314 @@
+.navbar {
+  padding: 0em 1em !important;
+}
+
+.nav-link {
+  min-width: 120px;
+  padding: 1em 0em;
+  text-align: center;
+}
+
+.nav-item a:hover {
+  background-color: #2071b1;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  text-align: left !important;
+  padding: 0.75em;
+}
+
+.dropdown-item:hover {
+  color: #ffffff;
+}
+
+#header {
+  background-image: url("../images/conference.jpg") !important;
+  background-color: #007bff !important;
+  background-blend-mode: multiply;
+  margin-bottom: 0.5em;
+}
+
+#footer {
+  padding: 0%;
+  margin: 0%;
+  border-radius: 0px;
+}
+
+.list {
+  list-style: none;
+  margin-top: 1em;
+  color: #ffffff;
+}
+
+.list li {
+  padding-left: 2em;
+}
+
+.list #adress {
+  background: url("../images/location.png") no-repeat;
+}
+
+.list #phone {
+  background: url("../images/phone.png") no-repeat;
+}
+
+.list #fax {
+  background: url("../images/fax.png") no-repeat;
+}
+
+.list #email {
+  background: url("../images/email.png") no-repeat;
+}
+
+a {
+  color: #28a745;
+}
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#mainContent {
+  min-height: 400px;
+  margin-bottom: 0.5em;
+  padding-right: 2em;
+  padding-top: 1em;
+  background: #f8f9fa;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#important {
+  min-height: 400px;
+  margin-bottom: 0.5em;
+  padding-top: 1.5em;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.date {
+  margin-bottom: 2em;
+}
+
+a.text-light {
+  color: #a0ffa0 !important;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* COPIED FROM https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow : BEGIN*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* COPIED FROM https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow : END */
+
+/* COPIED FROM https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team : BEGIN */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0% !important;
+}
+
+.container {
+  padding: 0 0.35em;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+/* COPIED FROM https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_team : END */
+
+.sponsor {
+  padding: 4%;
+  width: 90%;
+}
+
+.list-group-item .tooltiptext {
+  visibility: hidden;
+  text-align: center;
+  width: 25%;
+  position: absolute;
+  z-index: 1;
+}
+
+.list-group-item:hover .tooltiptext {
+  visibility: visible;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.journal {
+  width: 32%;
+  height: 150px;
+}
+
+.card-text {
+  font-size: 0.75em;
+}
+
+.invited-img {
+  width: 100%;
+}
+
+.invited {
+  padding-bottom: 1em;
+}
+
+.remark {
+  list-style-type: "none";
+}
+
+.remark li::before {
+  content: "*";
+}
